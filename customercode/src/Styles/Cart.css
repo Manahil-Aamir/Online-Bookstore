@@ -1,0 +1,122 @@
+/* Updated CSS with uniform button sizes, larger font, and no underlines */
+
+.cartcontainer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cartInfo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cartItems {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cartItems tr {
+    padding: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  .image img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .titlePrice {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .title {
+    flex-grow: 1;
+   
+    font-size: large;
+  }
+  .price{
+    font-size:large;
+  }
+  
+  .updatequantity {
+    display: flex;
+    align-items: center;
+  }
+  .removeitemfromcart{
+    align-items: center;
+  }
+  
+  .subtract,
+  .add,
+  .del button {
+    background-color: #e4a554;
+    color: #fff;
+    border: none;
+   /* Uniform button size */
+    font-size: 18px; /* Increased font size */
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    text-decoration: none; /* Remove underline */
+  }
+  .del button{
+    background-color: rgb(217, 39, 39);
+    margin-top:20px;
+  }
+  
+  .subtract:hover,
+  .add:hover,
+  .del button:hover {
+    background-color: black;
+  }
+  
+  .quantity {
+    font-size: 20px; /* Increased font size */
+    margin: 0 15px;
+  }
+  
+  .totalout {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 30px; /* Increased font size */
+    font-weight: bold;
+  }
+  
+  /* Optional: Add animation for hover effect */
+  
+  .cartItems tr:hover {
+    background-color: #f5f5f5;
+    transition: background-color 0.3s;
+  }
+  
+  .checkout {
+      border: none;
+      border-radius: 20px;
+      padding: 10px 20px;
+      cursor: pointer;
+ 
+      background-color: chocolate;
+      color: white;
+      margin-right: 10px;
+  }
+  
+ 
+  
+  .checkout:hover{
+    background-color: #e4a554;;
+  }
+  
+  .nav {
+    /* Add styles for the navigation bar */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }

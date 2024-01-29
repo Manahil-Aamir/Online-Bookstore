@@ -1,0 +1,102 @@
+/* Checkout.css */
+
+/* Overall container */
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffdbac; 
+  } */
+  
+  .checkout-container {
+    max-width: 600px;
+    max-height: 100%;
+    margin: 20px auto; /* Center the content and add space from the top */
+    
+  }
+  
+  /* Header styles */
+  .checkout-container h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  /* Form container styles */
+  .checkout-container .form-container {
+    margin-top: 20px;
+  }
+  
+  /* Form information styles */
+  .checkout-container .information {
+    text-align: left;
+  }
+  
+  /* Form group styles */
+  .checkout-container .form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Label styles */
+  .checkout-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input styles */
+  .checkout-container .form-group input,
+  .checkout-container .form-group select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  /* Error message styles */
+  .checkout-container .error {
+    color: #ff0000;
+    font-size: 1em;
+    text-align: left; /* Align text to the left */
+    display: block; /* Display error messages below the input boxes */
+    margin-top: 5px; /* Add space between input and error message */
+  }
+  
+  /* Submit button styles */
+  .checkout-container .submit-button {
+    text-align: center; /* Center the button */
+  }
+  
+  .checkout-container .submit-button button {
+    background-color: #e4a554;
+    display: block; /* Make it a block-level element */
+    margin: 20px auto; /* Center horizontally and add space from the top */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .checkout-container .submit-button button:hover {
+    background-color: #e3dcd5;
+  }
+  
+  /* Responsive layout */
+  @media (min-width: 768px) {
+    /* Field names side by side */
+    .form-group {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    /* Adjust spacing between fields */
+    .checkout-container .form-group label {
+      width: 45%; /* Adjust as needed */
+    }
+  
+    .checkout-container .form-group input,
+    .checkout-container .form-group select {
+      width: 50%;
+    }
+  }
+  

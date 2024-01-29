@@ -1,0 +1,26 @@
+.displayContainer {
+  display: flex;
+}
+
+.bookInfo {
+  flex: 1; /* Takes up all available space in the flex container */
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+.shopping-area {
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+.amount-toggle {
+  display: flex;
+  align-items: center;
+}
+
+.amount-toggle button {
+  margin: 0; /* Adjust margin as needed */
+}
+
+/* Add any additional styling for your buttons as needed */
+
+
+/* Add any additional styling for your buttons, links, and other elements as needed */

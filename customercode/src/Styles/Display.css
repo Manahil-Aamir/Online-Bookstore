@@ -1,0 +1,74 @@
+/* Display.css */
+.maincont {
+margin-top: 100px;
+display: flex;
+flex-direction: column;}
+
+
+.displayContainer {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; /* Change flex-direction to row */
+    justify-content: center; /* Center items horizontally */
+    max-width: 100%; /* Set max-width to prevent horizontal scrolling */
+}
+
+.book {
+    height: 300px;
+    width: 300px; /* Adjust the width to control the spacing between books */
+    margin: 20px; /* Adjust the margin to control the spacing around each book */
+    padding: 10px;
+    border: 1px solid chocolate; /* Add border for a visual separation between books */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    transition: transform 0.3s ease-in-out;
+}
+
+.book:hover {
+    transform: scale(1.05); /* Add a scale effect on hover */
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px; /* Add border-radius to the book cover */
+}
+
+.bookname {
+    margin-top: 10px;
+    font-size: larger;
+}
+
+.details {
+    margin-top: 20px; /* Adjust the margin between book details */
+    text-align: center;
+}
+
+.viewbutton,
+.cartbutton {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.viewbutton {
+    background-color: chocolate;
+    color: white;
+    margin-right: 10px;
+}
+
+.cartbutton {
+    background-color: chocolate;
+    color: white;
+}
+
+.viewbutton:hover,
+.cartbutton:hover {
+    background-color: #8b4513; /* Darker chocolate color on hover */
+}
